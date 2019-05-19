@@ -1,0 +1,98 @@
+{
+    "version": "1.1",
+    "uri": "https://github.com/open-contracting/sample-data/tree/master/fictional-example/1.1",
+    "publishedDate": "2019-05-20T09:30:00Z",
+    "publisher": {
+        "name": "Datactivist",
+        "scheme": "FR-RCS",
+        "uid": "FR-RCS-823798871",
+        "uri": "https://avis-situation-sirene.insee.fr/IdentificationEtabToEntr.action?form.siren=823798871&form.nic=00013"
+    },
+    "license": "http://opendatacommons.org/licenses/pddl/1.0/",
+    "publicationPolicy": "https://github.com/open-contracting/sample-data/",
+    "releases": [{
+        "ocid": "ocds-111111-182005",
+        "id": "ocds-182005-award",
+        "language": "fr",
+        "date": "2019-05-20T09:30:00Z",
+        "initiationType": "tender",
+        "tag": [
+            "award"
+        ],
+        "parties": [{
+                "id": "FR-RCS-267500049",
+                "name": "CCAS",
+                "roles": [
+                    "buyer"
+                ],
+                "identifier": {
+                    "scheme": "FR-RCS",
+                    "id": "267500049",
+                    "legalName": "Centre d'Action Sociale"
+                },
+                "address": {
+                    "streetAddress": "5 boulevard Diderot",
+                    "locality": "Paris",
+                    "postalCode": "75012",
+                    "countryName": "France"
+                },
+                "contactPoint": {
+                    "name": "Bureau des Affaires Juridiques",
+                    "email": "baj@ccas.fr",
+                    "url": "http://example.com/contact/"
+                }
+            },
+            {
+                "id": "FR-RCS-418017257",
+                "name": "ALMA CONSULTING",
+                "roles": [
+                    "supplier"
+                ],
+                "identifier": {
+                    "scheme": "FR-RCS",
+                    "id": "418017257",
+                    "legalName": "ALMA CONSULTING"
+                },
+                "address": {
+                    "streetAddress": "66 RUE MARCEAU",
+                    "locality": "Montreuil",
+                    "postalCode": "93100",
+                    "countryName": "France"
+                },
+                "contactPoint": {
+                    "url": "https://opencorporates.com/companies/fr/418017257"
+                }
+            }
+        ],
+        "awards": [{
+            "id": "ocds-111111-182005",
+            "description": "Mission de ma\u00eetrise d'\u0153uvre relative aux travaux de restructuration du restaurant \"Pali Kao\" sis 11-15, rue Pali Kao 75020 Paris.",
+            "status": "active",
+            "mainProcurementCategory": "works",
+            "date": "2018-08-13T09:30:00Z",
+            "value": {
+                "amount": 480000,
+                "currency": "EUR"
+            },
+            "suppliers": [{
+                "id": "FR-RCS-418017257",
+                "name": "ALMA CONSULTING"
+            }],
+            "contractPeriod": {
+                "startDate": "2017-11-10T00:00:00Z",
+                "endDate": "2019-06-30T23:59:00Z",
+                "maxExtentDate": "2019-12-31T23:59:00Z"
+            },
+            "items": [{
+                "id": "CKEL-ID-KON-MET-ICI",
+                "description": "Mission de ma\u00eetrise d'\u0153uvre relative aux travaux de restructuration du restaurant \"Pali Kao\" sis 11-15, rue Pali Kao 75020 Paris.",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "71000000-8",
+                    "description": "Architectural, construction, engineering and inspection services",
+                    "uri": "http://www.cpv.enem.pl/en/71000000-8"
+                }
+            }]
+        }]
+    }]
+}
